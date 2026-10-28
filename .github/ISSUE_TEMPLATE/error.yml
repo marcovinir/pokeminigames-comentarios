@@ -1,0 +1,20 @@
+name: Error
+description: Avisa de algo que no funciona.
+title: "Error: "
+labels: ["error"]
+body:
+  - type: markdown
+    attributes:
+      value: "Esta issue es pública: no pongas tu correo ni tu contraseña."
+  - type: textarea
+    id: que-paso
+    attributes:
+      label: ¿Qué pasó?
+      description: Qué hacías, qué esperabas y qué ocurrió.
+    validations:
+      required: true
+  - type: input
+    id: dispositivo
+    attributes:
+      label: Dispositivo y navegador
+      placeholder: "Por ejemplo: Android, Chrome"

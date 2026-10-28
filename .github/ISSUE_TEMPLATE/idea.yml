@@ -1,0 +1,15 @@
+name: Idea
+description: Propón un minijuego nuevo o una mejora.
+title: "Idea: "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: "Esta issue es pública: no pongas tu correo ni tu contraseña."
+  - type: textarea
+    id: idea
+    attributes:
+      label: ¿Qué te gustaría?
+      description: Cuéntalo con tus palabras; si es un minijuego, cómo se jugaría.
+    validations:
+      required: true
